@@ -1,0 +1,31 @@
+{
+    "name": "timonSchenzel/ajax-forms",
+    "description": "PHP Ajax Forms.",
+    "keywords": ["php", "ajax", "forms"],
+    "authors": [
+        {
+            "name": "Timon Schenzel"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/var-dumper": "~3.3",
+        "illuminate/support": "5.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "timonSchenzel\\AjaxForms\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
